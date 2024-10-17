@@ -83,7 +83,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
             fontSize = 60.sp,
             fontStyle = FontStyle.Italic,
             )
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
 
         Image(
             painter = painterResource(id =R.drawable.foto),
