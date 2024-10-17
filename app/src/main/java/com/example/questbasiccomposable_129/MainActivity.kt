@@ -71,6 +71,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic
         )
         Spacer(modifier = Modifier.padding(10.dp))
+        Text( "Adam Hanafi Putra",)
 
 
     }
