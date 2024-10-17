@@ -42,7 +42,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
         fillMaxSize().
         padding(top = 50.dp)
     ){
-        
+
     }
 }
 
