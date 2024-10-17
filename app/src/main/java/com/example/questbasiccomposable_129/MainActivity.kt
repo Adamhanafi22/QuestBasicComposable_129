@@ -86,7 +86,9 @@ fun Praktikum2(modifier: Modifier = Modifier){
         Spacer(modifier = Modifier.padding(10.dp))
 
         Image(
-            painter = painterResource(id =R.drawable)
+            painter = painterResource(id =R.drawable.foto),
+            contentDescription = "",
+            modifier = Modifier.size(250.dp)
         )
 
 
