@@ -79,6 +79,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
             color = Color.Red
         )
         Spacer(modifier = Modifier.padding(10.dp))
+        Text( "20220140129")
 
 
     }
