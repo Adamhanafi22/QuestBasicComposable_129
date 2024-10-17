@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -63,7 +64,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
         Image(
             painter = painterResource(id =R.drawable.logo),
             contentDescription = "",
-            modifier = Modifier.clip(CircleShape)
+            modifier = Modifier.size(250.dp)
         )
         Spacer(modifier = Modifier.padding(10.dp))
         Text( "Nama",
@@ -71,7 +72,8 @@ fun Praktikum2(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic
         )
         Spacer(modifier = Modifier.padding(10.dp))
-        Text( "Adam Hanafi Putra",)
+        Text( "Adam Hanafi Putra",
+            fontSize = 20.sp,)
 
 
     }
