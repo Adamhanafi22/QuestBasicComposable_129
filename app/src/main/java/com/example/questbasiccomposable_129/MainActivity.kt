@@ -18,6 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
@@ -74,7 +75,9 @@ fun Praktikum2(modifier: Modifier = Modifier){
         Spacer(modifier = Modifier.padding(10.dp))
         Text( "Adam Hanafi Putra",
             fontSize = 20.sp,
-            fontStyle = FontStyle.Italic)
+            fontStyle = FontStyle.Italic,
+            color = Color.Red
+        )
 
 
     }
