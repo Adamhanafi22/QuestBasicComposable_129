@@ -88,7 +88,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
         Image(
             painter = painterResource(id =R.drawable.foto),
             contentDescription = "",
-            modifier = Modifier.size(250.dp)
+            modifier = Modifier.size(260.dp)
         )
 
 
