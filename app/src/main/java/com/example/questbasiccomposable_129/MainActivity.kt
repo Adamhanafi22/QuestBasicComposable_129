@@ -67,7 +67,8 @@ fun Praktikum2(modifier: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.padding(10.dp))
         Text( "Nama",
-            fontSize = 20.sp,)
+            fontSize = 20.sp,
+            fontStyle = FontStyle.Italic)
 
 
     }
