@@ -60,7 +60,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
             fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
-        Spacer(modifier = Modifier.padding(15.dp))
+        Spacer(modifier = Modifier.padding(10.dp))
 
         Image(
             painter = painterResource(id =R.drawable.logo),
@@ -72,15 +72,18 @@ fun Praktikum2(modifier: Modifier = Modifier){
             fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text( "Adam Hanafi Putra",
             fontSize = 20.sp,
             fontStyle = FontStyle.Italic,
             color = Color.Red
         )
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text( "20220140129",
-            fontSize = 60.sp)
+            fontSize = 60.sp,
+            fontStyle = FontStyle.Italic,
+            )
+        Spacer(modifier = Modifier.padding(10.dp))
 
 
     }
