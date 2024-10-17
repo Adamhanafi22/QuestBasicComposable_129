@@ -66,6 +66,8 @@ fun Praktikum2(modifier: Modifier = Modifier){
             modifier = Modifier.clip(CircleShape)
         )
         Spacer(modifier = Modifier.padding(10.dp))
+        Text( "Nama",)
+
 
     }
 }
