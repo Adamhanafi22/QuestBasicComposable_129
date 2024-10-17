@@ -78,6 +78,7 @@ fun Praktikum2(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic,
             color = Color.Red
         )
+        Spacer(modifier = Modifier.padding(10.dp))
 
 
     }
